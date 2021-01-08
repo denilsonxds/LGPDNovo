@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Guia Lgpd - Quiz</title> 
+        <link href="../style.css" rel="stylesheet" type="text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css' />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="../introducao.css">
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+
+    <body>
+        <div id="hardcore">
+            <!-- Header -->
+            <div id="header-wrapper">
+                <div id="header">
+                    <div id="logo">
+                        <h1><a href="index.html">Guia LGPD</a></h1>
+                        <p>Guia do LGPD (Lei Geral de Proteção de Dados)</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+
+            <!-- Menu -->
+            <div id="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li class="current_page_item"><a href="../index.html">Home</a></li>
+                    <li><a href="../manual.html">Manual</a></li>
+                    <li><a href="../pesquisas.html">Pesquisas</a></li>
+                </ul>
+            </div>
+            <!-- End Menu -->
+
+            <!-- Page -->
+            <div id="page">
+                <div id="page-bgtop">
+                    <div id="page_aux">
+                        <div id="content">
+
+                            <div class="game">
+                                <h1 class="h1_game h1_sla   ">Questionário LGPD</h1>
+                                <div class="quiz-container">
+                                    <div id="quiz"></div>
+                                </div>
+                                <button id="previous" class="btn_left">Pergunta Anterior</button>
+                                <button id="next" class="btn_right">Proxima Pergunta</button>
+                                <button id="submit"class="btn_right">Finalizar Quiz</button>
+                                <div id="results"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div style="clear: both;">&nbsp;</div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="footer">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>. All rights reserved. <i class="icon-heart" aria-hidden="true"></i></p>
+        </div>
+        <script src="quiz.js"></script>
+    </body>
+</html>

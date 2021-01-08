@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+.h1_sla{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(104, 102, 102);
+  color: #fff;
+}
+
+
+.question{
+  font-size: 30px;
+  /* margin-bottom: 10px; */
+  margin: 0px 30px 10px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.answers {
+  display: inline-block;
+  margin: 0px 40px 20px 40px;
+  text-align: justify;
+  /* text-transform: ; */
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+  /* margin-bottom: 20px; */
+  margin: 290px;
+}
+button:hover{
+  background-color: #38a;
+}
+
+.btn_left{
+  margin: 290px 150px 10px 80px;
+}
+.btn_right{
+  margin: 290px 70px 10px 180px;
+}
+
+
+
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.game{
+  height: 800px;
+  align-content: center;
+  padding-top: 75px;
+  background-image: url(../images/sla3.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+.h1_game{
+  font-size: 25px;
+}

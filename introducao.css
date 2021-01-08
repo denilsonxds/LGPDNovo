@@ -1,0 +1,25 @@
+.ul_p {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.ul_p li {
+    padding: 5px 10px;
+}
+
+.ul_p li:nth-child(even){
+    background-color: rgb(231, 231, 231);
+    /* border-bottom: solid 2px gray; */
+}
+
+.ul {
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.ul li {
+    padding: 5px 20px 10px 10px;
+    text-align: justify;
+}
+
